@@ -659,6 +659,7 @@ services:
       no_proxy: proxy1
     networks:
       - beam
+      - internet
   connect2:
     depends_on:
       - proxy2
@@ -679,6 +680,7 @@ services:
       no_proxy: proxy2
     networks:
       - beam
+      - internet
   proxy2:
     depends_on: [ broker ]
     image: samply/beam-proxy:${TAG}
