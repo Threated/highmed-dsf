@@ -1,5 +1,16 @@
 {
     "sites": [
-
+        {
+            "id": "FHIR 1",
+            "name": "FHIR 1",
+            "virtualhost": "172.20.0.3:8080",
+            "beamconnect": "app1.proxy1.broker"
+        },
+        {
+            "id": "FHIR 2",
+            "name": "FHIR 2",
+            "virtualhost": "172.20.0.19:8080",
+            "beamconnect": "app2.proxy2.broker"
+        }
     ]
 }

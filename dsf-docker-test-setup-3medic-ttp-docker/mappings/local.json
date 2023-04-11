@@ -1,3 +1,12 @@
 [
-
+    {
+        "external": "172.20.0.3:8080",
+        "internal": "172.20.0.3:8080",
+        "allowed": ["app1.proxy1.broker", "app2.proxy2.broker"]
+    },
+    {
+        "external": "172.20.0.19:8080",
+        "internal": "172.20.0.19:8080",
+        "allowed": ["app1.proxy1.broker", "app2.proxy2.broker"]
+    }
 ]
